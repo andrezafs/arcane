@@ -60,9 +60,29 @@ header {
 footer {
   width: 100%;
   .footer-box {
+
     &-ep {
+      max-width:72.4rem ;
       background: #E3D2BC;
       border: .2rem solid #111111;
+      &-description {
+        display: flex;
+        &-play {
+          width: 23rem;
+          height: 15rem;
+          background-color: yellow;
+        }
+        &-text {
+          h1 {
+            font-size: 3.6rem;
+            font-weight: 700;
+          }
+          p {
+            font-size: 2rem;
+            font-weight:400 ;
+          }
+        }
+      }
     }
     &-linha {
       height:11.1rem;
