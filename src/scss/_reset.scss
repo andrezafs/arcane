@@ -57,3 +57,18 @@ header {
   align-items: center;
 
 }
+footer {
+  width: 100%;
+  .footer-box {
+    &-ep {
+      background: #E3D2BC;
+      border: .2rem solid #111111;
+    }
+    &-linha {
+      height:11.1rem;
+      background: #E3D2BC;
+      opacity: 0.2;
+      border-radius: 0 0 0 2.4rem;
+    }
+  }
+}
