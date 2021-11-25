@@ -3,17 +3,40 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  
+ 
+
   height: 100vh;
   background-image: url(/images/bg.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.maxw {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 8rem;
+  width: 100%;
+  justify-content: space-between;
+  .nav-logo {
+    display: flex;
+    
+  }
+  .traco {
+    height: 4.2rem;
+    width: 0.2rem;
+    background-color:white;
+    margin: 0 6rem;
+  }
+
 }
