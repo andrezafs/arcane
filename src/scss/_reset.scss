@@ -5,6 +5,13 @@
   box-sizing: border-box;
   font-size: 62.5%;
 }
+body {
+  background-image: url(/images/bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 img {
   width: 100%;
 }
@@ -22,12 +29,12 @@ text-transform: uppercase;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-
-  height: 100vh;
-  background-image: url(/images/bg.svg);
-  background-position: center;
+height: 100%;
+  background-image: url(/images/jinx.svg);
+  background-position: right;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: cover;
+ 
 }
 .maxw {
   max-width: 120rem;
@@ -56,6 +63,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
 }
 footer {
@@ -70,7 +78,7 @@ footer {
       border: .2rem solid #111111;
       &-description {
         display: flex;
-       
+        z-index: -1;
         
         &-play {
          
@@ -92,6 +100,7 @@ footer {
       }
     }
     &-linha {
+     
       margin-left: auto;
       height:11.1rem;
       background: #E3D2BC;
