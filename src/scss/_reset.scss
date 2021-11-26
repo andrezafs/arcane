@@ -13,9 +13,9 @@ body {
   background-size: cover;
   // height: 100vh;
 }
-// img {
-//   width: 100%;
-// }
+img {
+  width: 100%;
+}
 
 button {
   cursor: pointer;
@@ -53,6 +53,7 @@ header {
   justify-content: space-between;
   .nav-logo {
     display: flex;
+    align-items: center;
     
   }
   .traco {
