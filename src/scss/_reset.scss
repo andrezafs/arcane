@@ -91,24 +91,26 @@ footer {
   width: 100%;
 
   .footer-box {
+  
     // margin-top: 23.7rem;
     width: 100%;
     &-ep {
       bottom: -40rem;
+      left: 12rem;
    position: absolute;
-      max-width:72.4rem ;
+     
       background: #E3D2BC;
       border: .2rem solid #111111;
       z-index: 1;
       &-description {
         display: flex;
-     
+     position: relative;
         
         &-play {
         
-          // left: -5rem;
           width: 23rem;
           height: 15rem;
+         
           background-color: yellow;
          
           @media screen and (max-width:900px) {
@@ -117,6 +119,8 @@ footer {
           }
         }
         &-text {
+        
+         
           display: flex;
           flex-direction: column;
          padding: 5rem 0;
@@ -140,7 +144,7 @@ footer {
     &-linha {
    
 
-      margin-right: auto;
+     
       height:11.1rem;
       background: #E3D2BC;
       opacity: 0.2;
