@@ -21,6 +21,7 @@ text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 
   height: 100vh;
   background-image: url(/images/bg.svg);
@@ -59,15 +60,21 @@ header {
 }
 footer {
   width: 100%;
+
   .footer-box {
 
     &-ep {
+ 
       max-width:72.4rem ;
       background: #E3D2BC;
       border: .2rem solid #111111;
       &-description {
         display: flex;
+       
+        
         &-play {
+         
+          left: -5rem;
           width: 23rem;
           height: 15rem;
           background-color: yellow;
@@ -85,6 +92,7 @@ footer {
       }
     }
     &-linha {
+      margin-left: auto;
       height:11.1rem;
       background: #E3D2BC;
       opacity: 0.2;
