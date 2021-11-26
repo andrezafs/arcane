@@ -23,6 +23,9 @@ border: .2rem solid #111111;
 padding: 1.6rem 7.4rem;
 font-size: 2.4rem;
 text-transform: uppercase;
+@media screen and (max-width:900px) {
+  font-size: 1.2rem;
+}
 }
 .container {
   display: flex;
@@ -34,7 +37,11 @@ height: 100%;
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
- 
+  @media screen and (max-width:1000px) {
+    padding: 2rem;
+    background-image: none;
+  }
+
 }
 .maxw {
   max-width: 120rem;
@@ -86,15 +93,25 @@ footer {
           width: 23rem;
           height: 15rem;
           background-color: yellow;
+          @media screen and (max-width:900px) {
+            width: 20rem;
+            height: 12rem;
+          }
         }
         &-text {
           h1 {
             font-size: 3.6rem;
             font-weight: 700;
+            @media screen and (max-width:900px) {
+              font-size: 2.4rem;
+            }
           }
           p {
             font-size: 2rem;
             font-weight:400 ;
+            @media screen and (max-width:900px) {
+              font-size: 1rem;
+            }
           }
         }
       }
